@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+    <h1>My Task Manager</h1>
+
+    <main>
+        
+        <section id="list">
+
+            <button class="btn btn-primary" id="btnToggleForm">Toggle Form</button>
+
+            <div id="tasks-list">
+                <!--tasks will be rendered here-->
+            </div>
+
+        </section>
+
+        <section id="form">
+            
+            <div class="main-div"> 
+                <h3>Task Manager</h3>
+            <div class="control">   
+                <label class="form-label">Title:</label>
+                <input id="txtTitle" type="text" class="form-control">
+            </div>  
+            <div>
+                <label  class = "form-label">Important</label>
+                <i id="iImportant"  class="far fa-star"></i>
+            </div>
+            <div class="control">
+                <label class="form-label">Due date:</label>
+                <input id="selDate" type="datetime-local" class="form-control">
+            </div>
+            <div class="control">
+                <label class="form-label">Contact:</label>
+                <input id="txtContact" type="text" class="form-control">
+            </div>
+            <div class="control">
+                <label class="form-label">Location:</label>
+                <input id="txtLocation" type="text" class="form-control">
+            </div>
+
+            <div class="control">
+                <label class="form-label">Description:</label>
+                <textarea id="txtDescription" rows="4" class="form-control"></textarea>
+            </div>
+
+            <div class="control">
+                <label class="form-label">Color:</label>
+                <input id="selColor" type="color" class="form-control">
+            </div>
+
+            <button id="btnSave" class="btn btn-dark">Save Task</button>
+            <div id="tasks-list">
+                <!-- task will be rendered here-->
+            </div>
+
+        </section>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/task.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/test.js"></script>
+
+    
+</body>
+</html>

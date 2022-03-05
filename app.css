@@ -1,0 +1,102 @@
+body{
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+
+}
+
+.main-div{
+    border: 1px solid rgb(119, 212, 235);
+    background-color: rgba(248, 206, 89, 0.658);
+    padding: 15px;
+}
+
+
+
+
+section h3{
+    text-align: center;
+}
+
+#btnToggleForm{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#list{
+    flex: 2;
+}
+
+#form{
+    flex: 1;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #d8f006;
+}
+
+#iImportant {
+    font-size: 32px;
+    color: #333;
+    cursor: pointer;
+}
+
+#iImportant.fas{
+    color: red;
+}
+
+
+
+.task {
+    padding: 8px 15px ;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 209, 209);
+    background-color: rgba(243, 243, 243, 0.85);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 2px 2px rgb(91 47 96);
+}
+
+
+.task .info {
+    flex: 4;
+    padding-top: 15px;
+}
+
+.task .info .h5 {
+    margin-bottom: 0;
+}
+
+.task .date {
+    flex: 1;
+    text-align: center;
+}
+
+.task .extra {
+    flex: 2;
+    text-align: center;
+}
+
+.task .extra label {
+    display: block;
+}
+
+.task button {
+    flex: 1;
+}
